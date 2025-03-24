@@ -1,0 +1,40 @@
+/* Default Styles (Mobile First) */
+.employee-list-container {
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+
+
+.action-icon {
+    cursor: pointer;
+}
+
+/* Desktop and Larger Devices (1024px and above) */
+@media (min-width: 1024px) {
+    .employee-list-container {
+        width: 80%; /* Set the width to 80% of the screen */
+        margin: 20px auto !important; /* Center the container horizontally */
+    }
+
+    .table-container {
+        margin-top: 20px;
+        display: block; /* Ensure it behaves as a block-level element */
+        margin-left: auto; /* Center the table horizontally */
+        margin-right: auto; /* Center the table horizontally */
+    }
+
+    .employee-list-container button {
+        width: auto; /* Allow the button to auto size on desktop */
+    }
+}

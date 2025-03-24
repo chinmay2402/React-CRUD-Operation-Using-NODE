@@ -1,0 +1,33 @@
+/* Default Styles (Mobile First) */
+.employee-form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.employee-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-form-container button {
+    margin-top: 15px;
+    width: 100%; /* Full width button on mobile */
+}
+
+/* Tablet and Larger Devices */
+@media (min-width: 600px) {
+    .employee-form-container {
+        width: 70%; /* Increase width on tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .employee-form-container {
+        max-width: 400px; /* Set max-width for larger screens */
+    }
+}

@@ -1,0 +1,58 @@
+/* Default Styles (Mobile First) */
+.add-department-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+/* Tablet and Larger Devices */
+@media (min-width: 600px) {
+    .add-department-container {
+        width: 70%; /* Increase width on tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .add-department-container {
+        max-width: 400px; /* Set a max-width for larger screens */
+    }
+}
