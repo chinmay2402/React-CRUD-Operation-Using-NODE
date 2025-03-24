@@ -85,7 +85,7 @@ d) Run Backend Server
 ```bash
 npm start
 ```
-By default, the backend will run on http://localhost:3000/.
+By default, the backend will run on http://localhost:5000/.
 ### 3. Frontend Setup
 a) Navigate to Frontend Directory
 ```bash
@@ -97,8 +97,9 @@ npm install
 ```
 c) Run React Application
 ```bash
-npm run dev
+npm start
 ```
+By default, the frontend will run on http://localhost:3000/.
 ## 📜 License
 This project is licensed under the MIT License.
 
